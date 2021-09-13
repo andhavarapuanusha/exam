@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">intilize the browser (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">navigate to marioot website (PASSED : 17s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on ourbrands from topnavigation (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">check jw marioot (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close the browser (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">intilize the browser (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">navigate to marioot website (PASSED : 16s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on find reserve (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on destination and give Chennai (FAILED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close the browser (SKIPPED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50411" started-at="2021-09-13T07:24:21Z" finished-at="2021-09-13T07:25:11Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Cucumber_exam.Runner.Runner@48e4374]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="runner" duration-ms="50411" started-at="2021-09-13T07:24:21Z" finished-at="2021-09-13T07:25:11Z">
+      <class name="com.Cucumber_exam.Runner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Cucumber_exam.Runner.Runner@48e4374]" name="setUpClass" is-config="true" duration-ms="363" started-at="2021-09-13T07:24:21Z" finished-at="2021-09-13T07:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Cucumber_exam.Runner.Runner@48e4374]" name="runScenario" duration-ms="25595" started-at="2021-09-13T07:24:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-13T07:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["search ourbrands"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["search hotels"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">intilize the browser (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">navigate to marioot website (PASSED : 17s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on ourbrands from topnavigation (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">check jw marioot (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close the browser (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="SKIP" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Cucumber_exam.Runner.Runner@48e4374]" name="runScenario" duration-ms="24255" started-at="2021-09-13T07:24:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-13T07:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["search hotels"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["search hotels"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input id="VOQAZSPI_search-location" autocomplete="off" type="text" name="destinationAddress.destination" value="" placeholder="" aria-label="City, airport, attraction or address" maxlength="100" class="js-geoloc-target single-search single-search-destination js-recent-search js-search-location js-moreoptions-expander js-clear-input l-no-ie-clear l-h-field js-hform-fields  js-auto-complete-input-v2" data-target="destination" aria-autocomplete="list"> is not clickable at point (197, 486). Other element would receive the click: <p class="t-loading-text">...</p>
+  (Session info: chrome=93.0.4577.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-DGUP2R51', ip: '192.168.43.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\91933\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70e37fcf13cea5f9d2a6643494f2d0fe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="VOQAZSPI_search-location" autocomplete="off" type="text" name="destinationAddress.destination" value="" placeholder="" aria-label="City, airport, attraction or address" maxlength="100" class="js-geoloc-target single-search single-search-destination js-recent-search js-search-location js-moreoptions-expander js-clear-input l-no-ie-clear l-h-field js-hform-fields  js-auto-complete-input-v2" data-target="destination" aria-autocomplete="list"> is not clickable at point (197, 486). Other element would receive the click: <p class="t-loading-text">...</p>
+  (Session info: chrome=93.0.4577.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-DGUP2R51', ip: '192.168.43.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\91933\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70e37fcf13cea5f9d2a6643494f2d0fe
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.Cucumber_exam.StepDefination.StepDefination.click_on_destination_and_give(StepDefination.java:61)
+at ✽.click on destination and give Chennai(src/test/resources/feature/Landing.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">intilize the browser (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">navigate to marioot website (PASSED : 16s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on find reserve (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on destination and give Chennai (FAILED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close the browser (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Cucumber_exam.Runner.Runner@48e4374]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2021-09-13T07:25:11Z" finished-at="2021-09-13T07:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Cucumber_exam.Runner.Runner -->
+    </test> <!-- runner -->
+  </suite> <!-- Suite -->
+</testng-results>

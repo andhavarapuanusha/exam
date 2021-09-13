@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">runner</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num">50,411</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">runner &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.Cucumber_exam.Runner.Runner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1631517887331</td><td rowspan="1">24255</td></tr><tr><th colspan="4">runner &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Cucumber_exam.Runner.Runner</td><td><a href="#m1">runScenario</a></td><td rowspan="1">1631517861732</td><td rowspan="1">25595</td></tr></tbody>
+</table>
+<h2>runner</h2><h3 id="m0">com.Cucumber_exam.Runner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;search hotels&quot;</td><td>&quot;search hotels&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><div "result">intilize the browser (PASSED : 1s)</div><br/><div "result">navigate to marioot website (PASSED : 16s)</div><br/><div "result">click on find reserve (PASSED : 4s)</div><br/><div "result">click on destination and give Chennai (FAILED : 1s)</div><br/><div "result">close the browser (SKIPPED)</div></div></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;VOQAZSPI_search-location&quot; autocomplete=&quot;off&quot; type=&quot;text&quot; name=&quot;destinationAddress.destination&quot; value=&quot;&quot; placeholder=&quot;&quot; aria-label=&quot;City, airport, attraction or address&quot; maxlength=&quot;100&quot; class=&quot;js-geoloc-target single-search single-search-destination js-recent-search js-search-location js-moreoptions-expander js-clear-input l-no-ie-clear l-h-field js-hform-fields  js-auto-complete-input-v2&quot; data-target=&quot;destination&quot; aria-autocomplete=&quot;list&quot;&gt; is not clickable at point (197, 486). Other element would receive the click: &lt;p class=&quot;t-loading-text&quot;&gt;...&lt;/p&gt;
+  (Session info: chrome=93.0.4577.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-DGUP2R51&apos;, ip: &apos;192.168.43.240&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\91933\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70e37fcf13cea5f9d2a6643494f2d0fe
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.Cucumber_exam.StepDefination.StepDefination.click_on_destination_and_give(StepDefination.java:61)
+	at ✽.click on destination and give Chennai(src/test/resources/feature/Landing.feature:14)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.Cucumber_exam.Runner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;search ourbrands&quot;</td><td>&quot;search hotels&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><div "result">intilize the browser (PASSED : 2s)</div><br/><div "result">navigate to marioot website (PASSED : 17s)</div><br/><div "result">click on ourbrands from topnavigation (PASSED : 4s)</div><br/><div "result">check jw marioot (PASSED : 0s)</div><br/><div "result">close the browser (PASSED : 0s)</div></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
